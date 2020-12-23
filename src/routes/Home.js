@@ -15,8 +15,8 @@ class Home extends Component {
             </div>
             <div className="col-lg-8 col-md-12 landing-hero">
               <div className="hero-image">
-                <LandingImage />
                 <LandingBg />
+                <LandingImage />
               </div>
             </div>
           </div>

@@ -1,13 +1,18 @@
 @import "styles/styles.scss";
 
 .home-page-container {
-  padding-top: 8em;
+  padding-top: 5em;
   padding-bottom: 4em;
   background: $distribute-yellow;
 
   .landing-hero {
-    svg {
-      width: 100%;
+    .hero-image {
+      position: relative;
+      margin-bottom: 15em;
+      svg {
+        position: absolute;
+        width: 100%;
+      }
     }
   }
 
