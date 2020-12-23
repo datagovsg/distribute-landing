@@ -1,0 +1,42 @@
+@import "styles/partials/menu";
+
+.product-header-container {
+  padding-top: 1em;
+  .header-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 60px;
+
+    .product-logo {
+      line-height: 0;
+      margin: 0;
+      padding: 0;
+      width: 180px;
+      z-index: 100;
+      a {
+        margin: 0;
+        padding: 0;
+        img {
+          width: 180px;
+        }
+      }
+    }
+  }
+  .header-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .product-header-container {
+    .header-left {
+    }
+    .header-right {
+      justify-content: flex-end;
+      align-items: center;
+    }
+  }
+}

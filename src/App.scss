@@ -1,0 +1,8 @@
+.box {
+  background: red;
+  height: 800px;
+
+  &:hover {
+    background: blue;
+  }
+}

@@ -1,0 +1,25 @@
+.masthead-container {
+  width: 100%;
+  background: #eee;
+  height: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  .masthead-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    .sg-crest {
+      width: 18px;
+      margin-right: 10px;
+    }
+
+    p {
+      font-size: 12px;
+    }
+  }
+}
