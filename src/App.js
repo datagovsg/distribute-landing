@@ -22,6 +22,7 @@ import Privacy from "routes/Privacy";
 
 class App extends Component {
   render() {
+    console.log(process.env.PUBLIC_URL);
     return (
       <HashRouter basename={process.env.PUBLIC_URL}>
         <Masthead />

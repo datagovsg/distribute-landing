@@ -145,12 +145,12 @@
           // when input is checked
           input:checked {
             & ~ .answer {
-              display: block;
+              display: flex;
               visibility: visible;
               padding-top: 10px;
               max-height: 3000px;
-              opacity: 100%;
               transition: all 0.1s ease-out;
+              opacity: 100%;
             }
 
             ~ .question {
