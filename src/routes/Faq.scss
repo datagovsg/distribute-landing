@@ -1,7 +1,9 @@
+@import "styles/styles.scss";
 .faq-page-container {
   .faq-header {
     padding-top: 3em;
     padding-bottom: 3em;
+    width: 100%;
     h1 {
       margin: 0 auto;
       margin-top: 40px;
@@ -19,6 +21,7 @@
   .faq-body {
     padding-top: 4em;
     padding-bottom: 4em;
+    background: white;
 
     .faq-note {
       max-width: 80ch;
