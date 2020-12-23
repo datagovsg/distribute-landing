@@ -1,13 +1,14 @@
 $menu-speed: 0.75s;
 $hamburger-color: rgba(30, 30, 30, 1);
-$overlay-color: rgba(255, 255, 255, 1);
+$overlay-color: $distribute-yellow;
 $hover-color: rgba(240, 240, 240, 1);
 $menu-hover-color: lighten($hamburger-color, 30%);
 $selected-color: rgba(220, 220, 220, 1);
-$link-underline-color: #eceff3;
+$link-underline-color: $distribute-purple;
 
 .menu-container {
   z-index: 1;
+
   .menu-toggle {
     position: absolute;
     top: -60px;
@@ -160,7 +161,7 @@ $link-underline-color: #eceff3;
               &:hover {
                 &::after {
                   content: "";
-                  background: $link-underline-color;
+                  background: lighten($link-underline-color, 40%);
                   position: absolute;
                   bottom: 0.1em;
                   left: 0;

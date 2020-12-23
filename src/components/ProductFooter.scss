@@ -1,4 +1,6 @@
-$product-footer-background: white;
+@import "styles/styles.scss";
+
+$product-footer-background: $distribute-yellow;
 $product-footer-color: black;
 
 .product-footer-container {
@@ -9,7 +11,7 @@ $product-footer-color: black;
 
   .product-logo {
     img {
-      width: 180px;
+      width: 120px;
       margin: 0;
     }
 

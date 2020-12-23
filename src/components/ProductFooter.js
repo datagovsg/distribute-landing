@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import "./ProductFooter.scss";
-import productLogo from "img/logo.svg";
+import productLogo from "img/distribute-logo.svg";
 
 class ProductFooter extends Component {
   render() {
@@ -12,16 +12,12 @@ class ProductFooter extends Component {
             <div className="col-12">
               <div className="product-logo">
                 <img src={productLogo} />
-                <p className="tagline">Make something great again!</p>
+                <p className="tagline">
+                  Distribute things to citizens and households easily
+                </p>
               </div>
               <nav>
                 <ul>
-                  <li>
-                    <Link to="/index-agency">For Campaign Organisers</Link>
-                  </li>
-                  <li>
-                    <Link to="/index-merchant">For Merchants</Link>
-                  </li>
                   <li>
                     <Link to="/faq">FAQ</Link>
                   </li>

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
 import "./Home.scss";
+import { ReactComponent as LandingImage } from "img/distribute-landing.svg";
 
 class Home extends Component {
   render() {
@@ -8,99 +9,11 @@ class Home extends Component {
       <div className="home-page-container">
         <div className="container">
           <div className="row">
-            <div className="col-12">
-              <h1>Home</h1>
+            <div className="col-lg-4 col-md-12 landing-intro">
+              <h1>Distribute things to citizens and households easily</h1>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-            <div className="col-1">
-              <div className="red">d</div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-2">
-              <div className="red">d</div>
-            </div>
-            <div className="col-2">
-              <div className="red">d</div>
-            </div>
-            <div className="col-2">
-              <div className="red">d</div>
-            </div>
-            <div className="col-2">
-              <div className="red">d</div>
-            </div>
-            <div className="col-2">
-              <div className="red">d</div>
-            </div>
-            <div className="col-2">
-              <div className="red">d</div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-3">
-              <div className="red">d</div>
-            </div>
-            <div className="col-3">
-              <div className="red">d</div>
-            </div>
-            <div className="col-3">
-              <div className="red">d</div>
-            </div>
-            <div className="col-3">
-              <div className="red">d</div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-4">
-              <div className="red">d</div>
-            </div>
-            <div className="col-4">
-              <div className="red">d</div>
-            </div>
-            <div className="col-4">
-              <div className="red">d</div>
-            </div>
-          </div>
-          <div className="row">
-            <div className="col-6">
-              <div className="red">d</div>
-            </div>
-            <div className="col-6">
-              <div className="red">d</div>
+            <div className="col-lg-8 col-md-12 landing-hero">
+              <LandingImage />
             </div>
           </div>
         </div>

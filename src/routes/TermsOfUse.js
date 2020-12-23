@@ -920,7 +920,7 @@ class TermsOfUse extends Component {
                         <strong>1.</strong>
                       </div>
                       <div className="clause-text">
-                        <strong>Name of Service: </strong>RedeemSG
+                        <strong>Name of Service: </strong>DistributeSG
                       </div>
                     </div>
                     <div className="spacing-sm"></div>

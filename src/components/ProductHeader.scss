@@ -1,7 +1,10 @@
+@import "styles/styles.scss";
+
 @import "styles/partials/menu";
 
 .product-header-container {
   padding-top: 1em;
+  background: $distribute-yellow;
   .header-left {
     display: flex;
     justify-content: flex-start;
@@ -12,13 +15,13 @@
       line-height: 0;
       margin: 0;
       padding: 0;
-      width: 180px;
+      width: 120px;
       z-index: 100;
       a {
         margin: 0;
         padding: 0;
         img {
-          width: 180px;
+          width: 120px;
         }
       }
     }

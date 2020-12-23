@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
 import "./ProductHeader.scss";
-import productLogo from "img/logo.svg";
+import productLogo from "img/distribute-logo.svg";
 
 class ProductHeader extends Component {
   render() {
@@ -49,24 +49,6 @@ class ProductHeader extends Component {
                       <ul>
                         <li>
                           <NavLink
-                            to="index-agency"
-                            activeClassName="active"
-                            onClick={closeMenu}
-                          >
-                            For Campaign Organisers
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
-                            to="/index-merchant"
-                            activeClassName="active"
-                            onClick={closeMenu}
-                          >
-                            For Merchants
-                          </NavLink>
-                        </li>
-                        <li>
-                          <NavLink
                             to="/faq"
                             activeClassName="active"
                             onClick={closeMenu}
@@ -74,7 +56,7 @@ class ProductHeader extends Component {
                             FAQ
                           </NavLink>
                         </li>
-                        {/* <li>
+                        <li>
                           <NavLink
                             to="/privacy"
                             activeClassName="active"
@@ -91,7 +73,7 @@ class ProductHeader extends Component {
                           >
                             Terms of Use
                           </NavLink>
-                        </li> */}
+                        </li>
                         <li>
                           <a href="mailto:test@email.com" onClick={closeMenu}>
                             Contact Us

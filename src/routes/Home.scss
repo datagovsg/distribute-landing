@@ -1,11 +1,28 @@
+@import "styles/styles.scss";
+
 .home-page-container {
-  background: teal;
-}
+  padding-top: 8em;
+  padding-bottom: 4em;
+  background: $distribute-yellow;
 
-.red {
-  background: red;
-}
+  .landing-hero {
+    svg {
+      width: 100%;
+    }
+  }
 
-.row {
-  margin-bottom: 10px;
+  .landing-intro {
+    padding-top: 2em;
+    padding-bottom: 4em;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      font-size: 2rem;
+    }
+  }
 }
