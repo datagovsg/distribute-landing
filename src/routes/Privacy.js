@@ -268,8 +268,8 @@ class Privacy extends Component {
                       <div className="clause-numbering">9.</div>
                       <div className="clause-text">
                         Please contact
-                        <a href="mailto:feedback@redeem.gov.sg ">
-                          feedback@redeem.gov.sg
+                        <a href="mailto:feedback@distribute.gov.sg ">
+                          feedback@distribute.gov.sg
                         </a>
                         if you:
                       </div>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { NavLink, Link } from "react-router-dom";
 import "./Home.scss";
 import { ReactComponent as LandingImage } from "img/distribute-landing.svg";
+import { ReactComponent as LandingBg } from "img/distribute-landing-bg.svg";
 
 class Home extends Component {
   render() {
@@ -13,7 +14,10 @@ class Home extends Component {
               <h1>Distribute things to citizens and households easily</h1>
             </div>
             <div className="col-lg-8 col-md-12 landing-hero">
-              <LandingImage />
+              <div className="hero-image">
+                <LandingImage />
+                <LandingBg />
+              </div>
             </div>
           </div>
         </div>

@@ -75,7 +75,10 @@ class ProductHeader extends Component {
                           </NavLink>
                         </li>
                         <li>
-                          <a href="mailto:test@email.com" onClick={closeMenu}>
+                          <a
+                            href="mailto:feedback@distribute.gov.sg"
+                            onClick={closeMenu}
+                          >
                             Contact Us
                           </a>
                         </li>

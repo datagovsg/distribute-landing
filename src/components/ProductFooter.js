@@ -28,7 +28,7 @@ class ProductFooter extends Component {
                     <Link to="/terms-of-use">Terms of Use</Link>
                   </li>
                   <li>
-                    <a href="mailto:test@email.com">Contact Us</a>
+                    <a href="mailto:feedback@distribute.gov.sg">Contact Us</a>
                   </li>
                 </ul>
               </nav>
