@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/distribute-landing/static/css/main.4108fe72.chunk.css",
+    "main.js": "/distribute-landing/static/js/main.a4955b9d.chunk.js",
+    "main.js.map": "/distribute-landing/static/js/main.a4955b9d.chunk.js.map",
+    "runtime-main.js": "/distribute-landing/static/js/runtime-main.2bf83c51.js",
+    "runtime-main.js.map": "/distribute-landing/static/js/runtime-main.2bf83c51.js.map",
+    "static/js/2.03677e37.chunk.js": "/distribute-landing/static/js/2.03677e37.chunk.js",
+    "static/js/2.03677e37.chunk.js.map": "/distribute-landing/static/js/2.03677e37.chunk.js.map",
+    "index.html": "/distribute-landing/index.html",
+    "static/css/main.4108fe72.chunk.css.map": "/distribute-landing/static/css/main.4108fe72.chunk.css.map",
+    "static/js/2.03677e37.chunk.js.LICENSE.txt": "/distribute-landing/static/js/2.03677e37.chunk.js.LICENSE.txt",
+    "static/media/bx-chevron-right.d2e6270b.svg": "/distribute-landing/static/media/bx-chevron-right.d2e6270b.svg",
+    "static/media/bxl-facebook.1940917e.svg": "/distribute-landing/static/media/bxl-facebook.1940917e.svg",
+    "static/media/bxl-linkedin.516cb587.svg": "/distribute-landing/static/media/bxl-linkedin.516cb587.svg",
+    "static/media/logo.530d726e.svg": "/distribute-landing/static/media/logo.530d726e.svg",
+    "static/media/ogp-logo-mark-white.371dbfae.svg": "/distribute-landing/static/media/ogp-logo-mark-white.371dbfae.svg",
+    "static/media/ogp-logo.bc777731.svg": "/distribute-landing/static/media/ogp-logo.bc777731.svg",
+    "static/media/sg-crest.24ba62e1.svg": "/distribute-landing/static/media/sg-crest.24ba62e1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2bf83c51.js",
+    "static/js/2.03677e37.chunk.js",
+    "static/css/main.4108fe72.chunk.css",
+    "static/js/main.a4955b9d.chunk.js"
+  ]
+}
