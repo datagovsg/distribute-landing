@@ -7,11 +7,7 @@ import OgpFooter from "components/OgpFooter";
 import ProductHeader from "components/ProductHeader";
 import ProductFooter from "components/ProductFooter";
 
-import {
-  BrowserRouter,
-  Route,
-  Switch,
-} from "react-router-dom";
+import { HashRouter, Route, Switch, Link } from "react-router-dom";
 
 import Home from "routes/Home";
 import Faq from "routes/Faq";
@@ -21,7 +17,7 @@ import Privacy from "routes/Privacy";
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter basename={process.env.PUBLIC_URL}>
         <Masthead />
         <ProductHeader />
 
@@ -50,7 +46,7 @@ class App extends Component {
 
         <ProductFooter />
         <OgpFooter />
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }
