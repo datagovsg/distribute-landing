@@ -1,5 +1,6 @@
 {
   "name": "distribute-landing",
+  "homepage": "https://datagovsg.github.io/distribute-landing",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
