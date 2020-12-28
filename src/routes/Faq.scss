@@ -3,24 +3,32 @@
   .faq-header {
     padding-top: 3em;
     padding-bottom: 3em;
+    background: #3e378c;
     h1 {
       margin: 0 auto;
       margin-top: 40px;
+      margin-bottom: 0.2em;
       font-size: 2.6em;
       font-weight: 500;
       letter-spacing: 0.3px;
-      line-height: 140%;
+      // line-height: 140%;
+      color: #e8e5ff;
     }
 
     h2 {
       font-size: 1.6em;
+      color: #e8e5ff;
+      margin-bottom: 0.5em;
+    }
+    p {
+      color: #aea9e4;
     }
   }
 
   .faq-body {
     padding-top: 4em;
     padding-bottom: 4em;
-    background: white;
+    background: #eff3f6;
 
     .faq-note {
       max-width: 80ch;
@@ -47,7 +55,7 @@
         padding-top: 20px;
         padding-bottom: 20px;
 
-        background: white;
+        background: #fff9f1;
         border-radius: 10px;
         -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
         -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
@@ -62,9 +70,9 @@
       .all-questions {
         background: white;
         border-radius: 10px;
-        -webkit-box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.2);
-        -moz-box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.2);
-        box-shadow: 0px 10px 25px 0px rgba(0, 0, 0, 0.2);
+        -webkit-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+        -moz-box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.35);
 
         .question-answer-group {
           box-sizing: border-box;
