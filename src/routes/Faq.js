@@ -22,7 +22,7 @@ class Faq extends Component {
               <section className="faq-note">
                 <p>
                   For a more complete set of FAQs on the programme, please refer
-                  to the CFHP FAQs
+                  to the CFHP FAQs fff
                 </p>
               </section>
               <section className="faq-group">
