@@ -12,8 +12,8 @@ class Faq extends Component {
             <div className="row">
               <div className="col-12">
                 <h1>Frequently Asked Questions</h1>
-                <h2>General FAQ</h2>
-                <p>Updated 1 December 2020</p>
+
+                <p>Updated 19 Jan 2021</p>
               </div>
             </div>
           </div>
@@ -26,16 +26,16 @@ class Faq extends Component {
                   <p></p>
                 </section>
                 <section className="faq-group">
-                  <h3>General</h3>
+                  <h3>1. General</h3>
                   <div className="all-questions">
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-01" type="checkbox" />
-                      <label for="qn-01" className="question">
+                      <input id="qn-1-1" type="checkbox" />
+                      <label for="qn-1-1" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
-                        <span>What is DistributeSG?</span>
+                        <span>1.1 What is DistributeSG?</span>
                       </label>
                       <div className="answer">
                         <p>
@@ -49,12 +49,12 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-02" type="checkbox" />
-                      <label for="qn-02" className="question">
+                      <input id="qn-1-2" type="checkbox" />
+                      <label for="qn-1-2" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
-                        <span>Who uses DistributeSG?</span>
+                        <span>1.2 Who uses DistributeSG?</span>
                       </label>
                       <div className="answer">
                         <p>
@@ -68,12 +68,12 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-03" type="checkbox" />
-                      <label for="qn-03" className="question">
+                      <input id="qn-1-3" type="checkbox" />
+                      <label for="qn-1-3" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
-                        <span>How does DistributeSG work?</span>
+                        <span>1.3 How does DistributeSG work?</span>
                       </label>
                       <div className="answer">
                         <p>
@@ -89,7 +89,7 @@ class Faq extends Component {
                         <p>
                           before the distribution starts. For details on access
                           rights, please refer to{" "}
-                          <a href="#qn-07">Section 2.4</a>
+                          <a href="#qn-2-4">Section 2.4</a>
                         </p>
                         <table>
                           <tr>
@@ -137,17 +137,18 @@ class Faq extends Component {
                   </div>
                 </section>
                 <section className="faq-group">
-                  <h3>Accessing the DistributeSG mobile app</h3>
+                  <h3>2. Accessing the DistributeSG mobile app</h3>
                   <div className="all-questions">
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-04" type="checkbox" />
-                      <label for="qn-04" className="question">
+                      <input id="qn-2-1" type="checkbox" />
+                      <label for="qn-2-1" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          Where should I download the DistributeSG mobile app?
+                          2.1 Where should I download the DistributeSG mobile
+                          app?
                         </span>
                       </label>
                       <div className="answer">
@@ -177,14 +178,14 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-05" type="checkbox" />
-                      <label for="qn-05" className="question">
+                      <input id="qn-2-2" type="checkbox" />
+                      <label for="qn-2-2" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          How do I gain access to the DistributeSG mobile app to
-                          disburse the vouchers?
+                          2.2 How do I gain access to the DistributeSG mobile
+                          app to disburse the vouchers?
                         </span>
                       </label>
                       <div className="answer">
@@ -223,14 +224,14 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-06" type="checkbox" />
-                      <label for="qn-06" className="question">
+                      <input id="qn-2-3" type="checkbox" />
+                      <label for="qn-2-3" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          I get stuck at the “Add collection point” page. How
-                          can I start using the app? How do I proceed?
+                          2.3 I get stuck at the “Add collection point” page.
+                          How can I start using the app? How do I proceed?
                         </span>
                       </label>
                       <div className="answer">
@@ -257,15 +258,16 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-07" type="checkbox" />
-                      <label for="qn-07" className="question">
+                      <input id="qn-2-4" type="checkbox" />
+                      <label for="qn-2-4" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          What can the Campaign Admin App users (i.e. registered
-                          staff) access? What can Campaign Admin Temporary App
-                          users (i.e. non-registered staff) access?
+                          2.4 What can the Campaign Admin App users (i.e.
+                          registered staff) access? What can Campaign Admin
+                          Temporary App users (i.e. non-registered staff)
+                          access?
                         </span>
                       </label>
                       <div className="answer">
@@ -351,13 +353,14 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-08" type="checkbox" />
-                      <label for="qn-08" className="question">
+                      <input id="qn-2-5" type="checkbox" />
+                      <label for="qn-2-5" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          Do the QR codes or temporary app users’ access expire?
+                          2.5 Do the QR codes or temporary app users’ access
+                          expire?
                         </span>
                       </label>
                       <div className="answer">
@@ -372,13 +375,13 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-08" type="checkbox" />
-                      <label for="qn-08" className="question">
+                      <input id="qn-2-6" type="checkbox" />
+                      <label for="qn-2-6" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          I earlier submitted a list of staff to be added as
+                          2.6 I earlier submitted a list of staff to be added as
                           permanent app users. Why are they still unable to
                           access the mobile app?
                         </span>
@@ -396,13 +399,13 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-09" type="checkbox" />
-                      <label for="qn-09" className="question">
+                      <input id="qn-2-7" type="checkbox" />
+                      <label for="qn-2-7" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          I am a Temporary App User. Right now the location
+                          2.7 I am a Temporary App User. Right now the location
                           shown in the app is different from the one that I am
                           at. How do I change location?
                         </span>
@@ -429,14 +432,14 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-10" type="checkbox" />
-                      <label for="qn-10" className="question">
+                      <input id="qn-2-8" type="checkbox" />
+                      <label for="qn-2-8" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          I am unable to scan the QR code/NRIC and it shows me a
-                          dark grey screen. Can you help?
+                          2.8 I am unable to scan the QR code/NRIC and it shows
+                          me a dark grey screen. Can you help?
                         </span>
                       </label>
                       <div className="answer">
@@ -465,18 +468,18 @@ class Faq extends Component {
                   </div>
                 </section>
                 <section className="faq-group">
-                  <h3>CDC paper voucher distribution</h3>
+                  <h3>3. CDC paper voucher distribution</h3>
                   <div className="all-questions">
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-11" type="checkbox" />
-                      <label for="qn-11" className="question">
+                      <input id="qn-3-1" type="checkbox" />
+                      <label for="qn-3-1" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          Why are some addresses found on record and others not
-                          found on record in the mobile app?
+                          3.1 Why are some addresses found on record and others
+                          not found on record in the mobile app?
                         </span>
                       </label>
                       <div className="answer">
@@ -493,12 +496,14 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-12" type="checkbox" />
-                      <label for="qn-12" className="question">
+                      <input id="qn-3-2" type="checkbox" />
+                      <label for="qn-3-2" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
-                        <span>What forms of identification is required?</span>
+                        <span>
+                          3.2 What forms of identification is required?
+                        </span>
                       </label>
                       <div className="answer">
                         <p>
@@ -511,13 +516,13 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-13" type="checkbox" />
-                      <label for="qn-13" className="question">
+                      <input id="qn-3-3" type="checkbox" />
+                      <label for="qn-3-3" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          How many voucher booklets are allowed per address?
+                          3.3 How many voucher booklets are allowed per address?
                         </span>
                       </label>
                       <div className="answer">
@@ -531,15 +536,15 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-14" type="checkbox" />
-                      <label for="qn-14" className="question">
+                      <input id="qn-3-4" type="checkbox" />
+                      <label for="qn-3-4" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          The recipient asks for an extra set of paper vouchers.
-                          (For example, because more than 1 family now stays in
-                          the same address). How do I resolve this?
+                          3.4 The recipient asks for an extra set of paper
+                          vouchers. (For example, because more than 1 family now
+                          stays in the same address). How do I resolve this?
                         </span>
                       </label>
                       <div className="answer">
@@ -563,18 +568,18 @@ class Faq extends Component {
                   </div>
                 </section>
                 <section className="faq-group">
-                  <h3>Admin Portal User</h3>
+                  <h3>4. Admin Portal User</h3>
                   <div className="all-questions">
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-15" type="checkbox" />
-                      <label for="qn-15" className="question">
+                      <input id="qn-4-1" type="checkbox" />
+                      <label for="qn-4-1" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          How do I gain access to the admin portal and access
-                          the campaign?
+                          4.1 How do I gain access to the admin portal and
+                          access the campaign?
                         </span>
                       </label>
                       <div className="answer">
@@ -589,12 +594,12 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-16" type="checkbox" />
-                      <label for="qn-16" className="question">
+                      <input id="qn-4-2" type="checkbox" />
+                      <label for="qn-4-2" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
-                        <span>How do I use the admin portal?</span>
+                        <span>4.2 How do I use the admin portal?</span>
                       </label>
                       <div className="answer">
                         <p>
@@ -607,17 +612,17 @@ class Faq extends Component {
                   </div>
                 </section>
                 <section className="faq-group">
-                  <h3>Others</h3>
+                  <h3>5. Others</h3>
                   <div className="all-questions">
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-17" type="checkbox" />
-                      <label for="qn-17" className="question">
+                      <input id="qn-5-1" type="checkbox" />
+                      <label for="qn-5-1" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
                         <span>
-                          Is there any email I can write to if I have any
+                          5.1 Is there any email I can write to if I have any
                           feedback or questions?
                         </span>
                       </label>
@@ -635,12 +640,12 @@ class Faq extends Component {
                     {/* each question ends here */}
                     {/* each question */}
                     <div className="question-answer-group">
-                      <input id="qn-18" type="checkbox" />
-                      <label for="qn-18" className="question">
+                      <input id="qn-5-2" type="checkbox" />
+                      <label for="qn-5-2" className="question">
                         <div class="icon">
                           <IconChevronRight />
                         </div>
-                        <span>Is there a training video? </span>
+                        <span>5.2 Is there a training video? </span>
                       </label>
                       <div className="answer">
                         <p>
