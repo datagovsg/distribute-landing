@@ -31,13 +31,13 @@
     background: #eff3f6;
 
     .faq-note {
-      max-width: 80ch;
+      max-width: 120ch;
       margin: 0 auto;
       padding-bottom: 30px;
     }
 
     .faq-group {
-      max-width: 80ch;
+      max-width: 120ch;
       margin: 0 auto;
       padding-bottom: 80px;
 
@@ -148,12 +148,29 @@
                 padding: 0.2em;
               }
             }
+
+            table {
+              margin-top: 1em;
+              margin-bottom: 2em;
+              tr {
+                border-collapse: separate;
+                border-spacing: 0 1em;
+                th {
+                  margin-right: 1em;
+                  vertical-align: top;
+                }
+                td {
+                  vertical-align: top;
+                }
+              }
+            }
           }
 
           // when input is checked
           input:checked {
             & ~ .answer {
               display: flex;
+              flex-direction: column;
               visibility: visible;
               padding-top: 10px;
               max-height: 3000px;
