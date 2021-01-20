@@ -183,9 +183,10 @@ class Faq extends Component {
                         <div class="icon">
                           <IconChevronRight />
                         </div>
+                        <span className="question-no">2.2</span>
                         <span>
-                          2.2 How do I gain access to the DistributeSG mobile
-                          app to disburse the vouchers?
+                          How do I gain access to the DistributeSG mobile app to
+                          disburse the vouchers?
                         </span>
                       </label>
                       <div className="answer">
