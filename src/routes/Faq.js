@@ -88,8 +88,14 @@ class Faq extends Component {
                         </ul>
                         <p>
                           before the distribution starts. For details on access
-                          rights, please refer to{" "}
-                          <a href="#qn-2-4">Section 2.4</a>
+                          rights, please refer to Question 2-4. To see what each
+                          user can access, watch this{" "}
+                          <a
+                            href="https://youtu.be/5VrWVkZ7i3k"
+                            target="_blank"
+                          >
+                            video
+                          </a>
                         </p>
                         <table>
                           <tr>
@@ -593,23 +599,6 @@ class Faq extends Component {
                       </div>
                     </div>
                     {/* each question ends here */}
-                    {/* each question */}
-                    <div className="question-answer-group">
-                      <input id="qn-4-2" type="checkbox" />
-                      <label for="qn-4-2" className="question">
-                        <div class="icon">
-                          <IconChevronRight />
-                        </div>
-                        <span>4.2 How do I use the admin portal?</span>
-                      </label>
-                      <div className="answer">
-                        <p>
-                          A video on how to use the admin portal may be found
-                          here.
-                        </p>
-                      </div>
-                    </div>
-                    {/* each question ends here */}
                   </div>
                 </section>
                 <section className="faq-group">
@@ -652,7 +641,14 @@ class Faq extends Component {
                         <p>
                           The training video will be made available to you via
                           your PA colleagues. A video on how to use the app may
-                          be found here.
+                          be found{" "}
+                          <a
+                            href="https://youtu.be/--CYar_j7T4"
+                            target="_blank"
+                          >
+                            here
+                          </a>
+                          .
                         </p>
                       </div>
                     </div>
